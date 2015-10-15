@@ -1,0 +1,55 @@
+
+.o_application_switcher {
+    background: url("../img/application-switcher-bg.jpg") no-repeat center center fixed;
+    .o-background-size(cover);
+
+    font-size: @odoo-font-size-base-touch;
+
+    .o_apps {
+        .user-select(none);
+
+        .o_app {
+            background: transparent;
+            text-decoration: none;
+            text-align: center;
+            outline: none;
+
+            .o-app-icon-common() {
+                width: 100%;
+                max-width: 80px;
+                border-radius: 8%;
+            }
+
+            .o_app_web_icon {
+                .o-app-icon-common;
+            }
+
+            // Applied to fontawesome icons
+            .o_app_icon {
+                .o-app-icon-common;
+                color: @odoo-brand-primary;
+                background-color: @odoo-brand-lightsecondary;
+
+                padding: 2vw;
+                font-size: 18vw; // Adapt fa size (would be 100% of parent, which is himself 22% of body)
+                @media (min-width: 363px) { // Size where 22vw = 80px
+                    padding: 8px;
+                    font-size: 64px;
+                }
+            }
+
+            .o_caption {
+                .o-text-overflow(block);
+                color: @odoo-brand-lightsecondary;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .o_application_switcher_footer {
+        .user-select(none);
+        > img {
+            width: 130px;
+        }
+    }
+}

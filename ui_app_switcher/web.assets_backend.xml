@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+    <record id="view_app_switcher_assets" model="ir.ui.view">
+        <field name="name">app switcher assets</field>
+        <field name="inherit_id" ref="web.assets_backend"></field>
+        <field name="arch" type="xml">
+            <data name="app switcher assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/ui_app_switcher/static/src/less/web_assets.less"/>
+            </xpath>
+        </data>
+        </field>
+    </record>
+
+    </data>
+</openerp>
