@@ -3,7 +3,7 @@
 
 {
     "name" : "Custom App Switcher",
-    "version" : "1.8",
+    "version" : "1.9",
     "author" : "Bista Solutions",
     "category" : "Extra Tools",
 	"summary": "Change App Switcher background image (Bista)",
