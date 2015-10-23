@@ -7,7 +7,7 @@
     "author" : "Bista Solutions",
     "category" : "Extra Tools",
 	"summary": "Change App Switcher background image (Bista)",
-    'description': "For Odoo Enterprise Version 9.0, this module replaces the default App Switcher background with a single blue image background. By replacing the image file in this module, you can further personalize the Odoo App Switcher page. This is a very simply module. It serves as an ideal example for those who are learning how to build modules with Odoo.",
+    'description': "For Odoo Enterprise Version 9.0, this module replaces the default App Switcher background with a single gray image background. By replacing the image file in this module, you can further personalize the Odoo App Switcher page. This is a very simply module. It serves as an ideal example for those who are learning how to build modules with Odoo.",
     'maintainer': "Bista Solutions",
     'website': 'http://www.bistasolutions.com/odoo-implementation-partners',
     'images': ['static/description/custom_app_switcher.png'],
