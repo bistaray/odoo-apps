@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_purchase_order_group" model="ir.ui.view">
+            <field name="name">Merge Request for Quotations</field>
+            <field name="model">purchase.order.group</field>
+            <field name="arch" type="xml">
+               <form string="Merge orders">
+                    <group>
+                        <separator string="Are you sure you want to merge these orders?"/>
+                        <newline/>
+                        <label string="Please note that requests will only be merged if:"/>
+                        <newline/>
+                        <label string="     * They are unconfirmed"/>
+                        <newline/>
+                        <label string="     * They have the same stock location and the same currency"/>
+                        <newline/>
+                        <label string="If multiple Vendors are selected, one merged Request for Quotation per Vendor will be created.  Any Cancelled Requests for Quotation or cancelled Purchase Orders that have been selected will be ignored."/>
+
+                    </group>
+                    
+                    <footer>
+                        <button name="merge_orders" string="CONFIRM MERGE" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <act_window name="Merge Request for Quotations"
+            res_model="purchase.order.group"
+            src_model="purchase.order"
+            view_mode="form"
+            target="new"
+            key2="client_action_multi"
+            id="action_view_purchase_order_group"/>
+
+    </data>
+</openerp>
+
