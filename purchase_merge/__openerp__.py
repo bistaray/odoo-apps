@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    "name" : "Purchase Order Merge",
+    "name" : "Request for Quotation Merge",
     "version" : "1.9.1",
     "author" : "Bista Solutions",
     'category': 'Purchases',

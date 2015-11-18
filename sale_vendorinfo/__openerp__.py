@@ -10,7 +10,7 @@
     'description': """
 For Odoo Enterprise Version 9.0, this module supports Vendor Information.  Some large Customers have additional requirements for products sold to them.  
 They require Vendor Information listed on all documents - Orders, Shipments and Invoices.  
-Typically they have a Seller identification number and/or an Accounts Payabale identification number that links you to their business system(s).  
+Typically they have a Seller identification number and/or an Accounts Payable identification number that links you to their business system(s).  
 This module allows Vendor Information to be stored on these Large Customers (partner records) and propagated to Orders, Shipments and Invoices
     """,
     'maintainer': "Bista Solutions",
