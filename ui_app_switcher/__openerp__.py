@@ -2,6 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
+    'license': 'LGPL-3',
     "name" : "Custom App Switcher",
     "version" : "1.9.2",
     "author" : "Bista Solutions",
@@ -14,7 +15,7 @@
     "depends" : ["base"],
     "init_xml" : [],
     "demo_xml" : [],
-    "data" : [
+        "data" : [
         'web.assets_backend.xml',
     ],
     "test" : [

@@ -2,6 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
+    'license': 'LGPL-3',
     "name" : "Account Invoice Total",
     "version" : "1.9.1",
     "author" : "Bista Solutions",

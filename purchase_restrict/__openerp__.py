@@ -3,6 +3,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
+    'license': 'LGPL-3',
     "name" : "Request for Quotation Price Validation",
     "version" : "1.9.1",
     "author" : "Bista Solutions, Serpent Consulting Services",

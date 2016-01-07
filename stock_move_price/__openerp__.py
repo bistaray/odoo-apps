@@ -2,6 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
+    'license': 'LGPL-3',
     "name" : "Stock Move Price",
     "version" : "1.9.1",
     "author" : "Bista Solutions",
