@@ -10,6 +10,9 @@
             <field name="amount_total_signed" position="attributes">
                 <attribute name="sum">Total</attribute>
             </field>
+            <field name="residual_signed" position="attributes">
+                <attribute name="sum">Total</attribute>
+            </field>
         </field> 
     </record>
 
@@ -20,6 +23,9 @@
         <field name="inherit_id" ref="account.invoice_tree"/>
         <field name="arch" type="xml">
             <field name="amount_total_signed" position="attributes">
+                <attribute name="sum">Total</attribute>
+            </field>
+            <field name="residual_signed" position="attributes">
                 <attribute name="sum">Total</attribute>
             </field>
         </field>
