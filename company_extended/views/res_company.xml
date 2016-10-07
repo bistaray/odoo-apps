@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<odoo>
+  <data>
+
+    <record id="view_res_company_tree_extended" model="ir.ui.view">
+        <field name="name">res.company.tree.extended</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_tree"/>
+        <field name="arch" type="xml">
+              <field name="name" position="after">
+                  <field name="country_id"/>
+                  <field name="currency_id"/>
+                  <field name="parent_id"/>
+              </field>
+        </field> 
+    </record>
+
+    </data>
+</odoo>
+
+ 
