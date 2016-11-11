@@ -3,19 +3,19 @@
 
 {
     'license': 'LGPL-3',
-    "name" : "Account Payment Balance",
+    "name" : "Account Invoice Total",
     "version" : "1.10.1",
     "author" : "Bista Solutions",
     'category': 'Accounting',
-    "summary": "Add Unapplied Balance to Payments (Bista)",
-    'description': "For Odoo Version 10.0, this module shows the unapplied balance of Payments on the list and form view, with a filter to show payments with a positive unapplied balance.",
+    "summary": "Add totals to Invoice list view (Bista)",
+    'description': "For Odoo Version 10.0, this module adds a total under the list view of Invoices, showing the Invoice and Refund net total.",
     'maintainer': "Bista Solutions",
     'website': 'http://www.bistasolutions.com/erp-implementation-company/erp-customization-company',
     "depends" : ["base","account_accountant"],
     "init_xml" : [],
     "demo_xml" : [],
     "data" : [
-        'views/account_payment.xml',
+        'views/account_invoice.xml',
     ],
     "test" : [
     ],
