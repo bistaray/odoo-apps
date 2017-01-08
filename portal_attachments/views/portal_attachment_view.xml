@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<odoo>
+    <template id="attachment_meth_link" inherit_id="website_portal.portal_layout">
+        <xpath expr="//div[@class='o_my_details']" position="inside">
+            <a href="/my/my_attachments">Your Documents</a>
+            <br/>
+        </xpath>
+    </template>
+
+    <template id="my_attachments" name="Check Your Attachments">
+        <t t-call="website.layout">
+            <div class="wrap">
+                <div class="container">
+                   <table class="table table-hover">
+                       <thead>
+                         <tr class="active">
+                             <th>Document Name</th>
+                             <th>Download Link</th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                       <t t-foreach="attachment_details" t-as="att_detail">
+                           <tr>
+                               <td>
+                                    <span t-esc="att_detail.name"/>
+                               </td>
+                               <td>
+                               <a t-attf-href="/web/content/#{att_detail.id}?download=true" target="_blank">
+                                   <div class='oe_attachment_embedded o_image' t-att-title="att_detail.name" t-att-data-mimetype="att_detail.mimetype" t-attf-data-src="/web/image/#{att_detail.id}/50x50"/>
+                               </a>
+                               </td>
+                           </tr>
+                       </t>
+                       </tbody>
+                   </table>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>
+
+ 
