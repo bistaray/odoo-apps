@@ -1,0 +1,1 @@
+For Odoo Enterprise Version 10.0, this module expands "Followers" into an editable list of recipients.  You will see every contact who is currently following the document from which you are sending the message.  Add or remove people without affecting the followers.  Be sure your email is going only to those who should be receiving it!
