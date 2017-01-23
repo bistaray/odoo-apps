@@ -7,7 +7,7 @@
 ##############################################################################
 {
     'name': 'Show Message Recipients',
-    'version': '1.10.1',
+    'version': '1.10.2',
     "author": 'Bista Solutions Pvt. Ltd.',
     'website': 'https://www.odoo.com/page/mrp-cloud-software',
 	'summary': "More intuitive message sending (Bista)",

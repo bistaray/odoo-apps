@@ -5,7 +5,7 @@
 
 <template id="assets_backend" name="ventus contract assets" inherit_id="web.assets_backend">
   <xpath expr="." position="inside">
-    <script type="text/javascript" src="/mail_show_recipients/static/src/js/mail_chatter.js"/>
+    <script type="text/javascript" src="/mail_see_recipients/static/src/js/mail_chatter.js"/>
   </xpath>
 </template>
 
