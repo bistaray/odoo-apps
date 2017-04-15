@@ -11,6 +11,7 @@
     'description': 'For Odoo Version 10.0, this module allows users to select multiple open Vendor Invoices to pay.',
     'maintainer': 'Bista Solutions',
     'website': 'http://www.bistasolutions.com/erp-implementation-company/erp-customization-company',
+	'images': ['static/description/banner.png'],
     'depends': [
         'account',
     ],
