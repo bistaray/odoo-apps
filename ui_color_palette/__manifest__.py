@@ -11,7 +11,7 @@
     'description': "For Odoo Enterprise Version 10.0, this module replaces the default Odoo purple color palette with a blue based color palette. By editing the CSS and LESS files in this module, you can further personalize Odoo with your own color choices. This is a very simple module. It serves as an ideal example for those who are learning how to build modules with Odoo.",
     'maintainer': "Bista Solutions",
     'website': 'http://www.bistasolutions.com/odoo-implementation-partners',
-    'images': ['static/description/custom_color_palette.png'],
+    'images': ['static/description/banner.png'],
     "depends" : ["base"],
     "init_xml" : [],
     "demo_xml" : [],
